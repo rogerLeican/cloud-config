@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: "shopping-cart-poc"
+    
+server:
+  port: 9000
