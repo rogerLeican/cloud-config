@@ -2,5 +2,8 @@
 spring:
   application:
     name: "shopping-cart-poc"
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass&directConnection=true&ssl=false
 server:
   port: 9000
